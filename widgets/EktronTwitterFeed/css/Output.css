@@ -1,0 +1,39 @@
+﻿ul.ek-twitter-feed
+{
+    padding: 0 15px 0 0;
+    margin: 0 0 1em 0;
+    list-style: none;
+    font-size: 85%;
+    overflow: hidden;
+}
+
+    ul.ek-twitter-feed li.ek-tweet
+    {
+        list-style: none;
+        margin: 0.7em 0;
+        overflow:hidden;
+    }
+    ul.ek-twitter-feed li.ek-tweet div.ek-twitter-user
+    {
+        position: relative;
+        padding-left: 48px;
+        overflow: hidden;
+    }
+        ul.ek-twitter-feed li.ek-tweet div.ek-twitter-user div.ek-twitter-user-image
+        {
+            margin-left: -48px;
+            float:left;
+        }
+        ul.ek-twitter-feed li.ek-tweet div.ek-twitter-user div.ek-tweet-details
+        {
+            font-size: 90%;
+        }
+        ul.ek-twitter-feed li.ek-tweet div.ek-tweet-actions
+        {
+            float:right;
+            overflow:hidden;
+        }
+            ul.ek-twitter-feed li.ek-tweet div.ek-tweet-actions a
+            {
+                padding-left: 0.4em;
+            }

@@ -1,0 +1,4 @@
+﻿.ek-edit .enabledField {display:none;}
+.ek-edit td { padding: 10px; }
+.ek-edit .odd {}
+.ek-edit .even { background:#eee; border-radius: 10px; }
